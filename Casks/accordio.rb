@@ -1,9 +1,9 @@
 cask "accordio" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.6.4"
-  sha256 arm:   "cede57d5caac37ab88aad2b9c696e91a85321203a3ab8f8bd6dc39f081eb43f5",
-         intel: "d4c6b6c2dcbcd86f1474cab70c2ad246ed3c2beb718200bedc127c329ef1a702"
+  version "1.7.0"
+  sha256 arm:   "fa58c9de5cc5accbcdf286525bd66a233940c855fd9db1498635fd625938f9a3",
+         intel: "d29a1ded5b06336cf356f0c5c65c1cf80367f5f03ef75df546ddfa7131fc7cd3"
 
   url "https://github.com/deduxer-agency/accordio-agi-release/releases/download/v#{version}/Accordio-AI-#{version}-#{arch}.dmg",
       verified: "github.com/deduxer-agency/accordio-agi-release/"
